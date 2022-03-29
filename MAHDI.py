@@ -216,7 +216,7 @@ def action():
 
         
   
-    xxx = str(len(id))
+    
     jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m TOTAL IDs NUMBER     : " + xxx)
     time.sleep(0.5)
     jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m YOUR UID CHOOSE CODE : " + c)
