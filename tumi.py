@@ -80,7 +80,7 @@ def bnsbuy():
         print '\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m Your Key : \x1b[101m' + bns + '\x1b[0m'
         print
         raw_input('\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m Press Enter To Buy This Tools ')
-        os.system('am start https://wa.me/+88018874088882?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20Niki%20Paid%20Tools.%20My%20Key:%20' + bns)
+        os.system('am start https://wa.me/+8801887408882?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20Niki%20Paid%20Tools.%20My%20Key:%20' + bns)
         bnsbuy()
 
 
@@ -96,7 +96,7 @@ def bnsreg():
     print 
     ben = base64.b64encode(id)
     raw_input('\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m Press Enter To Buy This Tools')
-    os.system('am start https://wa.me/+88018874088882?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20Niki%20Paid%20Tools.%20My%20Key:%20' + id)
+    os.system('am start https://wa.me/+8801887408882?text=Assalamowalikom%20Sir,%20I%20Want%20To%20Buy%20Your%20Niki%20Paid%20Tools.%20My%20Key:%20' + id)
     sav = open('/data/data/com.termux/files/usr/etc/termuxopps', 'w')
     sav.write(ben)
     sav.close()
