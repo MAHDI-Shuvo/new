@@ -216,7 +216,6 @@ def action():
 
         
   
-    print 48 * '\x1b[1;91m-'
     xxx = str(len(id))
     jalan("\x1b[1;91m [\x1b[1;92m✓\x1b[1;91m]\x1b[1;92m TOTAL IDs NUMBER     : " + xxx)
     time.sleep(0.5)
