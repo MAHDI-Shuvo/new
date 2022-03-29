@@ -215,9 +215,6 @@ def action():
                 id.append(line.strip())
 
         
-
-    elif peak == '0':
-        main1()
     else:
         print '[!] Fill In Correctly'
         action()
